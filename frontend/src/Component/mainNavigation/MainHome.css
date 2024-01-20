@@ -1,0 +1,51 @@
+.section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    background-color: #f4f4f4; /* Background color for the section */
+}
+
+.welcome{
+    margin: 20px;
+    text-transform: uppercase;
+    color: #B6BBC4;
+}
+
+.image-container {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border-radius for a rounded image */
+}
+
+.content-container {
+    
+    text-align: center;
+    margin: 10px 5px;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 29);
+}
+
+.content-container h1 {
+    color: #333; /* Adjust the color as needed */
+    text-shadow:2px 3px 4px rgba(100, 50, 150, 29) ;
+}
+
+.content-container p{
+    width: 80%;
+   margin: 0px auto;
+
+   font-size: 24px;
+   text-align-last: center;
+   justify-content: center;
+    
+}

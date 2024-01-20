@@ -1,0 +1,25 @@
+.singbox{
+    height: 100vh;
+}
+
+.sing_page{
+    width: 30%;
+    margin-top: 40px;
+    box-shadow:2px -3px 4px rgba(255, 255, 255, 255) ;
+}
+
+@media (max-width: 1245px) {
+    .sing_page{
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .sing_page{
+        width: 90%;
+    }
+}
+
+.sing_page input{
+    box-shadow:2px 3px 4px rgba(0, 0, 0, 29) ;
+}

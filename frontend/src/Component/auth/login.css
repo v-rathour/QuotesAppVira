@@ -1,0 +1,35 @@
+.InputBox{
+    height: 100vh;
+    display: flex;
+    margin: 0px auto;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.InputBox .boxs{
+    width: 400px;
+    box-shadow:2px -3px 4px rgba(255, 255, 255, 255) ;
+}
+
+@media (max-width: 1245px) {
+    .InputBox .boxs{
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .InputBox .boxs{
+        width: 90%;
+    }
+}
+
+
+.boxs input{
+    box-shadow:2px 3px 4px rgba(0, 0, 0, 29) ;
+    margin-bottom: 10px;
+}
+
+.boxs .btn{
+    border: 1px solid;
+}

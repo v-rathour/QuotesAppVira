@@ -1,0 +1,62 @@
+.int_box{
+    padding: 150px 0px;
+    height: 100vh;
+}
+.new_quote{
+    padding: 10px;
+    
+    background-color:cadetblue;
+    border: 1px solid #fff;
+    width: 360px;
+    box-shadow:2px 3px 4px rgba(0, 0, 0, 26) ;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.new_quote input{
+   box-sizing: border-box;
+   padding: 3px;
+   box-shadow:-2px -3px 4px rgba(50, 100, 150, 2) ;
+   font-size: 18px;
+   margin: 10px 0px;
+   width: 100%;
+
+}
+
+.new_quote label{
+    margin: 5px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.new_quote input.label{
+    box-sizing: border-box;
+    margin: 5px;
+
+}
+
+.new_quote textarea{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+    box-shadow:-2px -3px 4px rgba(0, 0, 0, 26) ;
+    margin: 5px 0px;
+    padding: 4px;
+}
+
+.new_quote input{
+    outline: none;
+}
+
+.new_quote textarea:focus{
+    outline: none;
+}
+
+.new_quote button{
+    padding: 5px 10px;
+    background-color: green;
+    box-shadow:2px 3px 4px rgba(0, 0, 0, 26) ;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    color: #fff;
+}

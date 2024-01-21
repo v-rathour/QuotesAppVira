@@ -19,7 +19,7 @@ const EditQuotes = () => {
         // console.log(text)
         try{
          
-          await axios.post(`https://backend-quote-app1.onrender.com/quotes/${id}?_method=PATCH`,{author,text},{ withCredentials: true})
+          await axios.post(`https://backend-quote-c5e5.onrender.com/quotes/${id}?_method=PATCH`,{author,text},{ withCredentials: true})
         //   console.log("hi");
          navigate(`/quotes/${id}`);
           
@@ -30,7 +30,7 @@ const EditQuotes = () => {
     } 
 
     async function fetchQuotes() {
-        let res = await axios.get(`https://backend-quote-app1.onrender.com/quotes/${id}`);
+        let res = await axios.get(`https://backend-quote-c5e5.onrender.com/quotes/${id}`);
         let { author, text } = res.data;
         setUsername(author);
         setquote(text);

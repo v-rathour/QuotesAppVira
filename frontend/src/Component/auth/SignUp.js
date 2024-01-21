@@ -24,7 +24,7 @@ const SignUp = () => {
     const password = passwordRef.current.value;
 
     try {
-      await axios.post("https://backend-quote-app1.onrender.com/signup", {
+      await axios.post("https://backend-quote-c5e5.onrender.com/signup", {
         username,
         email,
         img,

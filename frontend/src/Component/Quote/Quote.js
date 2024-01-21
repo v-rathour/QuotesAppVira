@@ -15,7 +15,7 @@ const Quote = (props) => {
   const Deletehandler = async (id)=>{
 
     try {
-        await axios.post(`https://backend-quote-app1.onrender.com/quotes/${id}?_method=DELETE`)
+        await axios.post(`https://backend-quote-c5e5.onrender.com/quotes/${id}?_method=DELETE`)
         navigate("/allquotes");
     } catch (error) {
       console.log(error)

@@ -16,7 +16,7 @@ export default function MainNavigation() {
   const checkAuthenticationreq = async () => {
     try {
       const response = await axios.get(
-        "https://backend-quote-app1.onrender.com/check-auth?_method=FETCH",
+        "https://backend-quote-c5e5.onrender.com/check-auth?_method=FETCH",
         { withCredentials: true }
       );
 

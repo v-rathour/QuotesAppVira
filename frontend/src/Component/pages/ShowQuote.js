@@ -14,7 +14,7 @@ const ShowQuote = () => {
   });
 
   async function fetchQuotes() {
-    let res = await axios.get(`https://backend-quote-app1.onrender.com/quotes/${params.id}`);
+    let res = await axios.get(`https://backend-quote-c5e5.onrender.com/quotes/${params.id}`);
     let { author, text } = res.data;
     setQuote({ author, text });
   }

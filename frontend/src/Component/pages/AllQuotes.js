@@ -10,7 +10,7 @@ export default function AllQuotes(props) {
 
   async function getQuotes() {
     try {
-      let res = await axios.get("https://backend-quote-app1.onrender.com/allquotes",
+      let res = await axios.get("https://backend-quote-c5e5.onrender.com/allquotes",
         {
           withCredentials: true,
         }

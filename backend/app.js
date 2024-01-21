@@ -42,9 +42,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
   cors({
-    origin: [
-      "https://65aca86c70a82720c1649ec7--gorgeous-sprinkles-65c1d9.netlify.app/",
-    ],
+    origin: ["https://gorgeous-sprinkles-65c1d9.netlify.app/"],
     credentials: true,
     methods: "GET,POST,PUT,DELETE",
   })

@@ -14,7 +14,7 @@ const NewQuotes = () => {
       const text = quoteInputRef.current.value;
       try{
        
-        await axios.post('http://localhost:8080/addquotes',{author,text})
+        await axios.post('https://backend-quote-app1.onrender.com/addquotes',{author,text})
         window.location.href = '/allquotes';
         
       }

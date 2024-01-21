@@ -10,9 +10,11 @@ export default function AllQuotes(props) {
 
   async function getQuotes() {
     try {
-      let res = await axios.get("http://localhost:8080/allquotes", {
-        withCredentials: true,
-      });
+      let res = await axios.get("https://backend-quote-app1.onrender.com/allquotes",
+        {
+          withCredentials: true,
+        }
+      );
       // console.log(res)
       setQuotes(res.data.allQuotes);
       // refreshpage();

@@ -18,10 +18,9 @@ const Login = () => {
     try {
 
       let res = await axios.post(
-        "http://localhost:8080/login",
+        "https://backend-quote-app1.onrender.com/login",
         { username, password },
         { withCredentials: true }
-
       );
       
       console.log(res.data.user);

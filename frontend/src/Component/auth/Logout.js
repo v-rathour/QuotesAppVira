@@ -6,7 +6,7 @@ const Logout = () => {
 
   const LogoutUser = async () => {
     try {
-      const res = await axios.get("http://localhost:8080/logout", {
+      const res = await axios.get("https://backend-quote-app1.onrender.com/logout", {
         withCredentials: true,
       });
       localStorage.setItem("mes", res.data.message);
